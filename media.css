@@ -1,0 +1,118 @@
+*{
+    .body-copy br{
+        display: none;
+        }
+}
+@media (max-width: 1023px){
+    .body-copy br{
+    display: none;
+    }
+  }
+@media (max-width:375px) {
+}
+@media (max-width:600px) {
+    .container-image{
+        display: none;
+    }
+    .first-content{
+        height: 100%;
+        width: 100%;
+    }
+    br{
+        display: none !important;
+    }
+    .description h1{
+        font-size: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .buttons{
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    .buttons > *{
+        width: 80%;
+        height: 80px;
+    }
+    .icons-description{
+        display: flex;
+        justify-content: center;
+    }
+    .about{
+        padding: 0;
+        padding-left: 10px;
+    }
+    .table{
+        width: 100%;
+        display: grid;
+        gap: 40px;
+    }
+    .skill-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill{
+        padding: 20px;
+        gap: 10px;
+    }
+    
+    .projects-container{
+        display: grid;
+        height: 100%;
+        width: 100%;
+    }
+    .box-model {
+        width: 90vw; /* Use viewport width for responsiveness */
+        height: auto; /* Maintain aspect ratio */
+        max-height: 300px; /* Optional: restrict maximum height */
+    }
+}
+
+ /* Tablets (portrait and landscape) ----------- */
+@media (min-width: 601px) and (max-width: 914px) {
+    .container-image{
+        display: none;
+    }
+    .description{
+        width: 100%;
+    }
+    .description h1{
+        font-size: 60px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .buttons{
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    .buttons > *{
+        width: 80%;
+    }
+    .icons-description{
+        display: flex;
+        justify-content: center;
+    }
+    .skill{
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+        padding-left: 20px;
+    }
+    .box-model{
+        width: 90vw; /* Use viewport width for responsiveness */
+        height: auto;
+    }
+    .about{
+        padding: 0;
+        padding-left: 10px;
+    }
+}

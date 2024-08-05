@@ -1,0 +1,58 @@
+@media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #111111;
+        gap: 0;
+        overflow: hidden;
+        z-index: 10;
+        
+    }
+    nav ul li{
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    .close-menu{
+        animation: spin 0.1s  linear;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+    
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    nav ul{
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #111111;
+        gap: 0;
+        overflow: hidden;
+        z-index: 10;
+        
+    }
+    nav ul li{
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+}
