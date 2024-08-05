@@ -275,24 +275,6 @@ nav ul li a:hover::after{
     justify-content: center;
     padding: 60px;
 }
-.second-section{
-    padding-top: 50px;
-}
-
-.about{
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: #bc790e;
-    padding: 20px 120px;
-    line-height: 40px;
-}
-.about-description{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
 .projects-container{
     padding-top: 60px;
     padding-bottom: 70px;
